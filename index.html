@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet"  href="main.css">
+</head>
+
+<body>
+    <section>
+    <div>
+        <h1>Формула расчета Чистой Прибыли</h1>
+        <p>Схематично формулу расчета чистой прибыли (ЧП) в упрощенном варианте можно представить в следующем виде:</p>
+        <p>ЧП = В – СС – УР – КР + ПД – ПР – НП, где:</p>
+        <p>В — выручка;<br> СС — себестоимость продаж;<br> УР и КР — управленческие и коммерческие расходы; <br>ПД и ПР — прочие доходы и расходы;<br> НП — налог на прибыль.</p>
+    </div>
+
+    <div>
+        <p class="input"> B: <input type="text" id="n1"></p>
+        <p class="input">CC: <input type="text" id="n2"></p>
+        <p class="input">УР: <input type="text" id="n3"></p>
+        <p class="input">KР: <input type="text" id="n4"></p>
+        <p class="input">ПД: <input type="text" id="n5"></p>
+        <p class="input">ПP: <input type="text" id="n6"></p>
+        <p class="input">НП: <input type="text" id="n7"></p>
+    </div>
+
+    <div>
+        <button id="send">Вычислить</button>
+        <h2>Результат:</h2>
+        <p id="res"></p>
+    </div>
+
+    <script src="app.js"></script>
+    </section>
+</body>
+
+</html>
